@@ -1,13 +1,261 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/styleHomePage/">
+    <link rel="stylesheet" href="./assets/style/styleHeader/header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/styleHomePage/main.css">
     <title>Page Design</title>
 </head>
+
 <body>
+    <header>
+        <div class="header">
+        <!-----navigation----------------------------------------------------------------------->
+            <nav class="header__nav">
+            <div class="header__logo"><img src="./assets/images/imgHomePage/img/2rism.svg"></div>
+            <a class="header__link" href="HomePage.html">Home</a>
+            <a class="header__link" href="Page-Destination.html">Destinations</a>
+            <a  class="header__link" href="#">Tours</a>
+            <a  class="header__link" href="Page-Activites.html">Activities</a>
+            <a  class="header__link" href="Page-Aboutus.html">Contact</a>
+            <button class="header__button"><a href="1.html">Login</a></button>
+            </nav>
+            <hr class="header__line">
+            <div class="header__title"><h1>Wherewer you go, go with all your heart</h1></div>
+            <div class="header__promo"><h4>FIND YOUR TOUR NOW</h4></div>
+            <!------forma vubora tyra---------------------->
+            <form class="row gy-2 gx-3 align-items-center">
+                <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Activities</label>
+                    <select class="form-select" id="autoSizingSelect">
+                    <option selected>All Activities</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    </select>
+                    </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Destinations</label>
+                <select class="form-select" id="autoSizingSelect">
+                <option selected>Destinations</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                </select>
+                </div>
+            <div class="col-auto">
+                <label class="visually-hidden" for="autoSizingSelect">Guests</label>
+                <select class="form-select" id="autoSizingSelect">
+                <option selected>Guests</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                </select>
+                </div>
+            <div class="col-auto">
+            <label class="visually-hidden" for="autoSizingSelect">Date</label>
+            <select class="form-select" id="autoSizingSelect">
+            <option selected>Choose a date</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            </select>
+            </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+            </form>
+        </div>
     
+    </header>
+
+    <main>
+        <div class="main-section__destinations">
+
+            <div class="section-head">
+                <h3>Popular destinations</h3>
+            </div>
+
+            <div class="section__destination">
+
+                <div class="section__destination-first">
+                    <div class="destination-picture"><img src="assets/images/imgHomePage/img/destination-img-first.jpg">
+                    </div>
+                    <h4>Athenian acropolis</h4>
+                    <p class="text">Athens 105 58, Greece</p>
+                </div>
+
+                <div class="section__destination-second">
+                    <div class="destination-picture"><img
+                            src="assets/images/imgHomePage/img/destination-img-second.jpg"></div>
+                    <h4>Meteora monasteries</h4>
+                    <p class="text">Kalabaka 422 00, Greece</p>
+                </div>
+
+                <div class="section__destination-third">
+                    <div class="destination-picture"><img src="assets/images/imgHomePage/img/destination-img-third.jpg">
+                    </div>
+                    <h4>Melissani</h4>
+                    <p class="text">Melissani 280 80, Greece</p>
+                </div>
+
+                <div class="section__destination-fourth">
+                    <div class="destination-picture"><img
+                            src="assets/images/imgHomePage/img/destination-img-fourth.jpg"></div>
+                    <h4>Navagio</h4>
+                    <p class="text">Navagio, Greece</p>
+                </div>
+
+                <div class="section__destination-fifth">
+                    <div class="destination-picture"><img src="assets/images/imgHomePage/img/destination-img-fifth.jpg">
+                    </div>
+                    <h4>Dikteon Cave</h4>
+                    <p class="text">Psichro, Greece</p>
+                </div>
+
+                <div class="section__destination-sixth">
+                    <div class="destination-picture"><img src="assets/images/imgHomePage/img/destination-img-sixth.jpg">
+                    </div>
+                    <h4>Plaka</h4>
+                    <p class="text">Plaka, Greece</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-section__tours">
+
+            <div class="section-head">
+                <h3>Travel Tips and Advice</h3>
+            </div>
+
+            <div class="section__tours">
+
+                <div class="tours-picture"><img src="assets/images/imgHomePage/img/tours-left.jpg"></div>
+
+                <div class="tour-text">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex natus quibusdam expedita incidunt,
+                        omnis aliquam ut aliquid voluptates alias quae.</p>
+                </div>
+
+                <div class="tours-picture"><img src="assets/images/imgHomePage/img/tours-right.jpg"></div>
+                <div class="tour-text">
+                    <h4>Lorem ipsum dolor sit amet.</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex natus quibusdam expedita incidunt,
+                        omnis aliquam ut aliquid voluptates alias quae.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main-section__activities">
+
+            <div class="section-head">
+                <h3>Activities</h3>
+            </div>
+
+            <div class="section__activities">
+
+                <div class="section__activities-first">
+                    <div class="activities-picture"><img src="assets/images/imgHomePage/img/boat-trips.jpg"></div>
+                    <h4>Athenian acropolis</h4>
+                    <p class="text">Athens 105 58, Greece</p>
+                </div>
+
+                <div class="section__activities-second">
+                    <div class="activities-picture"><img src="assets/images/imgHomePage/img/climbing.jpg"></div>
+                    <h4>Meteora monasteries</h4>
+                    <p class="text">Kalabaka 422 00, Greece</p>
+                </div>
+
+                <div class="section__activities-third">
+                    <div class="activities-picture"><img src="assets/images/imgHomePage/img/skiing.jpg"></div>
+                    <h4>Melissani</h4>
+                    <p class="text">Melissani 280 80, Greece</p>
+                </div>
+
+                <div class="section__activities-fourth">
+                    <div class="activities-picture"><img src="assets/images/imgHomePage/img/hiking.jpg"></div>
+                    <h4>Navagio</h4>
+                    <p class="text">Navagio, Greece</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="main-section__aboutus">
+
+            <div class="aboutus-text">
+                <h3>About Us</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex natus quibusdam expedita incidunt, omnis
+                    aliquam ut aliquid voluptates alias quae.</p>
+            </div>
+            <div class="aboutus-picture"><img src="assets/images/imgHomePage/img/AboutUs.jpg"></div>
+        </div>
+
+        </div>
+    </main>
+    <div class="container">
+        <footer class="py-5">
+        <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Menu</a></li>
+            </ul>
+            </div>
+    <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Company</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Why 2rism</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Parther with us</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+            </ul>
+            </div>
+    <div class="col-6 col-md-2 mb-3">
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Account</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support center</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Feedback</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a></li>
+            </ul>
+            </div>
+    <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+                
+                <p><strong>Subscribe</strong> on our destination review newsletters</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+            <p>&copy;Travel Agency 2rism , 2022</p>
+            <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+            </ul>
+        </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script> 
 </body>
+
 </html>
