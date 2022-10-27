@@ -2,28 +2,37 @@
 h3 {
     font-family: 'Poppins';
 font-style: normal;
-font-weight: 600px;
+font-weight: 600;
 font-size: 32px;
 line-height: 48px;
 padding-left: 9%;
+a {
+text-decoration: none;
+    color:rgba(22, 20, 20, 1);
+    ;
+}
 }
 h4 {
+    padding-top: 1.5vh;
     font-family: 'Poppins';
 font-style: normal;
-font-weight: 500px;
+font-weight: 600;
 font-size: 16px;
 line-height: 24px;
 }
 p {
+    text-align: justify;
     font-family: 'Poppins';
 font-style: normal;
-font-weight: 500px;
+font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 color: #979797;
 }
-.main-section__destinations {   
+.main-section__destinations { 
+    padding-top: 6vh;  
     .section__destination {
+        padding-top: 2vh;
         display: flex;
         gap: 1%;
         padding-left: 9%;    
@@ -36,18 +45,42 @@ border-radius: 12px;
     }
 }
 }
+.carousel-item img {
+    width: 70em;
+    height: 35em;
+    padding: 30px 50px 20px 50px;
+  }
+  
+  .carousel-caption p {
+    color: rgb(236, 230, 230);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  
+  .carousel-caption h5 {
+    color: rgb(239, 232, 232);
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+  }
 .main-section__activities {
+    padding-top: 6vh;
     .section__activities  {
+        padding-top: 2vh;
         display: flex;
         gap: 5%;
         padding-left: 9%;
 }
 }
-.main-section__tours {  
+.main-section__tours { 
+    padding-top: 6vh; 
     .section__tours {
         display: flex;
         gap: 1%;
-        padding-left: 9%;       
+        padding-left: 9%;  
+        padding-top: 2vh;   
         img {
             width: 25rem;
 height: 35rem;
@@ -56,6 +89,7 @@ border-radius: 2%;
         .tour-text {
             width: 20rem;
 height: 35rem;
+padding: 0 2%;
         }
     }    
 }
@@ -64,9 +98,11 @@ height: 35rem;
     justify-content: center;
     gap: 8%;
     padding-top: 5%;
+    padding-top: 10vh;
    .aboutus-text {
     width: 30%;
-    height: 45%px;   
+    height: 45%px;
+    padding-top: 10vh;   
 }
 }
 

@@ -2,30 +2,40 @@
 h3 {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 32px;
   line-height: 48px;
   padding-left: 9%;
 }
+h3 a {
+  text-decoration: none;
+  color: rgb(22, 20, 20);
+}
 
 h4 {
+  padding-top: 1.5vh;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
 }
 
 p {
+  text-align: justify;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #979797;
 }
 
+.main-section__destinations {
+  padding-top: 6vh;
+}
 .main-section__destinations .section__destination {
+  padding-top: 2vh;
   display: flex;
   gap: 1%;
   padding-left: 9%;
@@ -36,16 +46,45 @@ p {
   border-radius: 12px;
 }
 
+.carousel-item img {
+  width: 70em;
+  height: 35em;
+  padding: 30px 50px 20px 50px;
+}
+
+.carousel-caption p {
+  color: rgb(236, 230, 230);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.carousel-caption h5 {
+  color: rgb(239, 232, 232);
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+}
+
+.main-section__activities {
+  padding-top: 6vh;
+}
 .main-section__activities .section__activities {
+  padding-top: 2vh;
   display: flex;
   gap: 5%;
   padding-left: 9%;
 }
 
+.main-section__tours {
+  padding-top: 6vh;
+}
 .main-section__tours .section__tours {
   display: flex;
   gap: 1%;
   padding-left: 9%;
+  padding-top: 2vh;
 }
 .main-section__tours .section__tours img {
   width: 25rem;
@@ -55,6 +94,7 @@ p {
 .main-section__tours .section__tours .tour-text {
   width: 20rem;
   height: 35rem;
+  padding: 0 2%;
 }
 
 .main-section__aboutus {
@@ -62,8 +102,10 @@ p {
   justify-content: center;
   gap: 8%;
   padding-top: 5%;
+  padding-top: 10vh;
 }
 .main-section__aboutus .aboutus-text {
   width: 30%;
   height: 45% px;
+  padding-top: 10vh;
 }/*# sourceMappingURL=main.css.map */
