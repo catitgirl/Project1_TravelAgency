@@ -1,1 +1,67 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.firstwords {
+  border: 1px solid white;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  background-color: #6c757d;
+  height: 30%;
+  width: 100%;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.firstwords h3 {
+  color: white;
+}
+
+.pair-part__activity {
+  padding-top: 6vh;
+  text-align: justify;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.pair-part__activity .part__activity {
+  display: flex;
+  gap: 1%;
+  padding-left: 5%;
+  padding-right: 1%;
+  padding-top: 2vh;
+}
+.pair-part__activity .part__activity h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+.pair-part__activity .part__activity img {
+  width: 35rem;
+  height: 30rem;
+  border-radius: 2%;
+  max-width: 100%;
+}
+.pair-part__activity .part__activity .activity-text {
+  width: 20rem;
+  height: 35rem;
+  padding: 0 2%;
+  text-align: justify;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #979797;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 35rem;
+}/*# sourceMappingURL=style.css.map */

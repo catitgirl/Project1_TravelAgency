@@ -1,0 +1,28 @@
+@import '../styleHeader/header.scss' ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section__firsttopic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    opacity: 0.9;
+    padding: 30px 20px 20px 20px;
+    .section__picture{
+        width: 30rem;
+        height: 20rem;
+        padding: 0px 10px 10px 10px;
+        }
+}
+ section h2{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.section__firsttopic .section__picture{
+    border-radius: 10px;
+}

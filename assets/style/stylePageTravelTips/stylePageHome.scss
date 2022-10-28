@@ -1,5 +1,162 @@
 @import '../vars/vars.scss';
-h1{
-   font-family: 'Lato', sans-serif;
-    
+@import '../vars/vars.scss';
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.firstwords{
+   font-family: 'Poppins';
+   font-style: normal;
+   display: block;
+   font-size: 50px;
+   text-align: center;
+   background-color: #6c757d;
+   height: 30%;
+   width: 100%;
+   margin-top: 2%;
+   border-radius: 10px;
+   h3{
+      color: white;
+   }
+}
+.beforetrip{
+   color: white;
+   display: block;
+   font-weight: 500;
+   text-align: left;
+   width: 70%;
+   margin-left: 15%;
+   border-radius: 10px;
+   font-weight: 600;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 20px;
+   background-color: #6c757d ;
+   opacity:70% ;
+   font-family: 'Poppins';
+   font-style: normal;
+   h4{
+      text-align: center;
+      padding-top: 1.5vh;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+   }
+   p {
+   text-align: justify;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   }
+}
+.duringtrip{
+   display: block;
+   font-weight: 500;
+   text-align: left;
+   width: 70%;
+   margin-left: 15%;
+   border-radius: 10px;
+   font-weight: 600;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 20px;
+   background-color: #6c757d ;
+   color: white;
+   opacity:70% ;
+   font-family: 'Poppins';
+   font-style: normal;
+   h4{
+      text-align: center;
+      padding-top: 1.5vh;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+   }
+   p {
+   text-align: justify;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   }
+}
+.souvenirs{
+   border: 5px solid #6c757d;
+   display: block;
+   font-weight: 500;
+   text-align: left;
+   width: 70%;
+   margin-left: 15%;
+   border-radius: 10px;
+   font-weight: 600;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 20px;
+   background-color: #6c757d ;
+   color: white;
+   opacity:70% ;
+   font-family: 'Poppins';
+   font-style: normal;
+   h4{
+      text-align: center;
+      padding-top: 1.5vh;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+   }
+   p {
+   text-align: justify;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   }
+}
+.beforedeparture{
+   display: block;
+   font-weight: 500;
+   text-align: left;
+   width: 70%;
+   margin-left: 15%;
+   border-radius: 10px;
+   font-weight: 600;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 20px;
+   background-color: #6c757d ;
+   color: white;
+   opacity:70% ;
+   font-family: 'Poppins';
+   font-style: normal;
+   h4{
+      text-align: center;
+      padding-top: 1.5vh;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+   }
+   p {
+   text-align: justify;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 24px;
+   }
 }
