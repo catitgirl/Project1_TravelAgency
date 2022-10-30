@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./assets/style/stylePageTravelTips/stylePageHome.css">
+<link rel="stylesheet" href="./assets/style/stylePageTravelTips/style.css">
     <title>Travel Tips</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         <div class="header">
         <!-----navigation----------------------------------------------------------------------->
             <nav class="header__nav">
-            <div class="header__logo"><img src="./assets/images/imgHomePage/icons/travel.png"></div>
+                <div class="header__logo"><img src="assets/images/imgHomePage/icons/icons100.png"><p>Travel<br>Agency</p></div>
             <a class="header__link" href="HomePage.html">Home</a>
             <a class="header__link" href="Page-Destination.html">Destinations</a>
             <a  class="header__link" href="#">Tours</a>
@@ -24,53 +24,8 @@
             <a  class="header__link" href="Page-Aboutus.html">Contact</a>
             <button class="header__button"><a href="Page-Registration.html">Login</a></button>
             </nav>
-            <hr class="header__line">
-            <div class="header__title"><h1>Wherewer you go,<br> go with all your heart</h1></div>
-            <div class="header__promo"><h4>FIND YOUR TOUR NOW</h4></div>
-            <!------forma vubora tyra---------------------->
-            <form class="row gy-2 gx-3 align-items-center">
-                <div class="col-auto">
-                    <label class="visually-hidden" for="autoSizingSelect">Activities</label>
-                    <select class="form-select" id="autoSizingSelect">
-                    <option selected>All Activities</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                    </select>
-                    </div>
-            <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingSelect">Destinations</label>
-                <select class="form-select" id="autoSizingSelect">
-                <option selected>Destinations</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                </select>
-                </div>
-            <div class="col-auto">
-                <label class="visually-hidden" for="autoSizingSelect">Guests</label>
-                <select class="form-select" id="autoSizingSelect">
-                <option selected>Guests</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                </select>
-                </div>
-            <div class="col-auto">
-            <label class="visually-hidden" for="autoSizingSelect">Date</label>
-            <select class="form-select" id="autoSizingSelect">
-            <option selected>Choose a date</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            </select>
-            </div>
-        <div class="col-auto">
-            <button type="submit" class="btn btn-secondary">Search</button>
-            </div>
-            </form>
-        </div>   
 </header>
+<main>
 <div class="firstwords"><h3>Reminder and advices for tourists when visiting Greece</h3></div><br>
 <div class="beforetrip">
     <h4 class="beforetrip__title">Before journey:</h4>
@@ -173,73 +128,23 @@
     </li>
     </ul>
 </div>
-<!---------------------carousel------------------------------------------------------------->
+<!---------------------video------------------------------------------------------------->
+<div class="videopromo">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eMF5K4UC9B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2V-Fg0ktwYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-
-    </div>
-    <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="assets/images/imgTravelTips/img/hotel-carousel.jpg" class="d-block w-100" alt="#">
-        <div class="carousel-caption d-none d-md-block text-end">
-        <h5>Acropolis of Athens</h5>
-        <p>For thousands of years, the Acropolis has been the symbol of Athens, the sacred rock,<br>
-        the link that links the splendor of ancient Greek civilization with modernity.</p>
-        <p><a class="btn btn-lg btn-secondary" href="#">Learn more</a></p>
-
-        </div>
-    </div>
-    <div class="carousel-item">
-        <img src="assets/images/imgTravelTips/img/airport-carousel.jpg" class="d-block w-100" alt="#">
-        <div class="carousel-caption d-none d-md-block text-end">
-        <h5>Crete</h5>
-        <p>Crete is the largest and most populous of the Greek islands, the 88th largest island in the world and <br>the fifth 
-            largest island in the Mediterranean Sea, after Sicily, Sardinia, Cyprus, and Corsica..</p>
-        <p><a class="btn btn-lg btn-secondary" href="#">Learn more</a></p>
-
-        </div>
-    </div>
-    <div class="carousel-item">
-        <img src="assets/images/imgTravelTips/img/food-carousel.jpg" class="d-block w-100 " alt="#">
-        <div class="carousel-caption d-none d-md-block text-end">
-        <h5>Cyprus</h5>
-        <p>Здесь должна быть инфа про Кипр.</p>
-        <p><a class="btn btn-lg btn-secondary" href="#">Learn more</a></p>
-
-        </div>
-    </div>
-    <div class="carousel-item">
-        <img src="assets/images/imgTravelTips/img/event-carousel.jpg" class="d-block w-100 " alt="#">
-        <div class="carousel-caption d-none d-md-block text-end">
-        <h5>Balos</h5>
-        <p>Здесь должна быть инфа про Балос.</p>
-        <p><a class="btn btn-lg btn-secondary" href="#">Learn more</a></p>
-        </div>
-    </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Предыдущий</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Следующий</span>
-    </button>
 </div>
 
 
+</main>
 <!----footer-------------------------------------------------------------------------------->
-<div class="container">
+<div class="container-fluid">
     <footer class="py-5">
     <div class="row">
-        <div class="col-6 col-md-2 mb-3">
+        <div class="col-6 col-md-2 mb-3 px-4">
         <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark fw-bold">About</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News</a></li>
@@ -248,7 +153,7 @@
         </div>
 <div class="col-6 col-md-2 mb-3">
         <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Company</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark fw-bold">Company</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Why 2rism</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Parther with us</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
@@ -257,16 +162,15 @@
         </div>
 <div class="col-6 col-md-2 mb-3">
         <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-dark fw-bold">Support</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Account</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support center</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Feedback</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact us</a></li>
         </ul>
         </div>
-<div class="col-md-5 offset-md-1 mb-3">
+<div class="col-md-5 offset-md-1 mb-3 px-4">
         <form>
-            
             <p><strong>Subscribe</strong> on our destination review newsletters</p>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Email address</label>
@@ -276,15 +180,7 @@
         </form>
         </div>
     </div>
-<div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
-        <p>&copy;Travel Agency 2rism , 2022</p>
-        <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        </ul>
-    </div>
-    </footer>
+</footer>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
 crossorigin="anonymous"></script> 
