@@ -8,14 +8,14 @@
   font-family: "Poppins";
   font-style: normal;
   display: block;
-  font-size: 50px;
+  font-size: 3.125rem;
   text-align: center;
   background-color: #b3d5f3;
   height: 30%;
   width: 100%;
   margin-top: 2%;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgb(22, 109, 143);
+  box-shadow: 0 0 1% rgb(22, 109, 143);
 }
 .firstwords h3 {
   color: #5B5B5B;
@@ -31,10 +31,10 @@
   margin-left: 15%;
   border-radius: 10px;
   font-weight: 600;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
   background-color: #d5e4f2;
   opacity: 70%;
   font-family: "Poppins";
@@ -43,12 +43,12 @@
 }
 .beforetrip h4 {
   text-align: center;
-  padding-top: 1.5vh;
+  padding-top: 1.8%;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 140%;
   color: rgb(38, 37, 37);
 }
 .beforetrip p {
@@ -56,8 +56,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 140%;
 }
 
 .duringtrip {
@@ -68,10 +68,10 @@
   margin-left: 15%;
   border-radius: 10px;
   font-weight: 600;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
   background-color: #d5e4f2;
   color: #5B5B5B;
   opacity: 70%;
@@ -85,8 +85,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 140%;
   color: rgb(38, 37, 37);
 }
 .duringtrip p {
@@ -94,8 +94,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 140%;
 }
 
 .souvenirs {
@@ -106,10 +106,10 @@
   margin-left: 15%;
   border-radius: 10px;
   font-weight: 600;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
   background-color: #d5e4f2;
   color: #5B5B5B;
   opacity: 70%;
@@ -123,8 +123,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 140%;
   color: rgb(38, 37, 37);
 }
 .souvenirs p {
@@ -132,8 +132,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 140%;
 }
 
 .beforedeparture {
@@ -144,10 +144,10 @@
   margin-left: 15%;
   border-radius: 10px;
   font-weight: 600;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
   background-color: #d5e4f2;
   color: #5B5B5B;
   opacity: 70%;
@@ -162,8 +162,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 140%;
   color: rgb(38, 37, 37);
 }
 .beforedeparture p {
@@ -171,8 +171,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 140%;
 }
 
 .container-fluid {
@@ -187,13 +187,15 @@
   width: 70%;
   margin-left: 15%;
   border-radius: 10px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-top: 20px;
-  background-color: #d5e4f2;
-  color: #5B5B5B;
-  opacity: 70%;
+  padding-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  background: rgba(213, 228, 242, 0.7);
   margin-bottom: 2%;
-  box-shadow: 0 0 10px rgb(22, 109, 143);
+  box-shadow: 0 0 7px rgb(22, 109, 143);
+}
+.videopromo iframe {
+  height: 35vh;
+  width: 57%;
 }/*# sourceMappingURL=style.css.map */
