@@ -2,26 +2,34 @@
 @import '../breakpoints';
 
 body {
-    @include md {
-        background-color: #777;
-        .wrapper {
-            display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: repeat(12, 1fr);
-        }
 
-    }
-    @include lg {
-        background-color:aqua;
+    @include lg-d {
+       
            font-size: 0.8rem;
+           nav.header__nav {
+         display: grid;
+        gap: 2%;
+           }
+        
            .wrapper {
+            min-height: 100%;
+            background-color:aqua;
             display: grid;
-        grid-template-columns: 30% auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 30% 1fr;
+        grid-template-rows: repeat(6, 16%);
+        row-gap: 1%;
+        margin-top: 1%;
+padding: 2%;
         }
         }
         
-        
+  @include xl-u {
+    .wrapper {
+    display: grid;
+        grid-template-columns: 30% auto 30% auto;
+        grid-template-rows: 1fr 1fr 1fr;
+  }      
+}
 }
 
 *{
@@ -29,24 +37,23 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
 .firstwords{
     border: 1px solid white;
     display: block;
-    font-size: 50px;
+    height: 5rem;
+    font-size: 3rem;
     text-align: center;
     background-color:#6c757d;
-    height: 30%;
-    width: 100%;
-    margin-top: 2%;
     border-radius: 10px;
     opacity: 0.4;
     h3{
+      padding-top: 2%;
         color: white;
     }
 }
 
     .wrapper {
-        width: 100%;
         display: grid;
         grid-template-columns: 30% auto 30% auto;
         grid-template-rows: 1fr 1fr 1fr;
@@ -54,12 +61,16 @@ body {
         column-gap: 1%;
         text-align: justify;
         padding: 2%;
-       img {
-        max-width: 100%;
-        border-radius: 2%;
+      
+        img {
+            max-width: 100%;
+            border-radius: 2%;
+            object-fit: cover;
+        }
+       
        }
        
-    }
+    
 
 .carousel-item {
     padding-top: 2%;
@@ -70,7 +81,7 @@ body {
 }
 
 .container-fluid{
-    height: 10%;
+    height: 100%;
     background-color: rgb(178, 208, 231);
     opacity: 0.7;
 }

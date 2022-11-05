@@ -1,3 +1,31 @@
+@import '../vars/vars';
+@import '../breakpoints';
+
+body {
+
+    @include lg-d {
+    
+           nav.header__nav {
+         display: grid;
+        gap: 2%;
+           }
+           .section__firsttopic{
+            display: grid;
+            grid-template-columns: 100%;
+            align-items: center;
+            gap: 1%;  
+            .section__picture {
+                max-width: 100%;
+               img {
+             width: 100%;
+                    border-radius: 2%;
+                }
+                }
+
+        }
+       
+    }
+}
 
 *{
     margin: 0;

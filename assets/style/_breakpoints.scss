@@ -48,4 +48,24 @@
         @content;
     }
 }
+// mobile first media
+
+@mixin lg-d {
+    @media (max-width: map-get($breakpoints, xl) - .2px) {
+        @content
+    }
+}
+
+@mixin md-d {
+    @media (max-width: map-get($breakpoints, lg) - .2px) {
+        @content
+    }
+}
+
+@mixin sm-d {
+    @media (max-width: map-get($breakpoints, md) - .2px) {
+        @content
+    }
+}
+
 

@@ -1,3 +1,24 @@
+@import '../vars/vars';
+@import '../breakpoints';
+
+body {
+    @include md-d {
+       
+           font-size: 0.8rem;
+           nav.header__nav {
+         display: grid;
+        gap: 2%;
+           }
+           .videopromo {
+            display: grid;
+            iframe {
+               width: 100%;
+            }
+           }
+        }
+      }
+        
+
 *{
    margin: 0;
    padding: 0;
@@ -181,6 +202,7 @@
    display: flex;
    justify-content: space-around;
    width: 70%;
+   gap: 2%;
    margin-left: 15%;
    border-radius: 10px;
    padding-bottom: 2%;
