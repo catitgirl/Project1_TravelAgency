@@ -26,6 +26,12 @@
   width: 70vw;
   flex-direction: row;
 }
+@media (max-width: 767.8px) {
+  .header__nav nav.header__nav {
+    display: grid;
+    gap: 2%;
+  }
+}
 .header__nav .header__logo {
   display: flex;
   flex-direction: row;

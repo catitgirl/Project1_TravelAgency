@@ -1,22 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
-@media (max-width: 767.8px) {
-  body .header {
-    height: 30vh;
-  }
-  body .header h1 {
-    margin: 0;
-  }
-  body .form {
-    display: none;
-  }
-  body .aboutus-section {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -63,6 +46,7 @@ h4 {
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.5rem;
+  padding-top: 20px;
 }
 
 p {
@@ -96,6 +80,7 @@ p {
   width: 100%;
   justify-items: center;
   gap: 2%;
+  padding-top: 20px;
 }
 .header__nav .header__nav-first {
   display: grid;
@@ -113,8 +98,6 @@ p {
   width: 50px;
 }
 .header__nav .header__nav-first .header__logo p {
-  padding-top: 10%;
-  padding-right: 0;
   color: #ffffff;
   font-family: "Caesar Dressing", cursive;
   font-size: 1vw;
@@ -189,10 +172,10 @@ p {
 
 .header__line {
   position: absolute;
-  top: 8%;
+  top: 7%;
   background-color: rgb(213, 216, 216);
   opacity: 0.4;
-  height: 4px;
+  height: 5px;
   width: 100%;
 }
 
@@ -200,12 +183,8 @@ p {
   width: 100%;
   padding-top: 3%;
 }
-.main-section__destinations h3 {
-  padding-left: 1%;
-}
-.main-section__destinations h4 {
-  padding-top: 1.5vh;
-  padding-left: 1%;
+.main-section__destinations .section-head {
+  padding-left: 2%;
 }
 .main-section__destinations .section__destination {
   width: 100%;
@@ -214,9 +193,7 @@ p {
   grid-template-rows: 1fr;
   justify-content: center;
   gap: 1rem;
-  padding-top: 3%;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding: 20px 2% 0 2%;
 }
 .main-section__destinations .section__destination img {
   border-radius: 12px;
@@ -233,7 +210,7 @@ p {
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     gap: 1rem;
-    padding-top: 3%;
+    padding-top: 20px;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -246,17 +223,35 @@ p {
   }
 }
 
-.section-head {
-  padding-left: 2%;
+.main-section__tours {
+  padding: 3% 2% 0 2%;
+}
+
+.section__traveltips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 2rem;
+  padding-top: 20px;
+}
+.section__traveltips img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 2%;
+  box-shadow: 10px 10px 10px rgb(107, 160, 203);
+}
+@media (min-width: 692px) and (max-width: 993px) {
+  .section__traveltips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
 
 .main-section__activities {
   max-width: 100%;
-  padding: 2%;
-}
-.main-section__activities h4 {
-  padding-top: 1.5vh;
-  padding-left: 1%;
+  padding: 3% 2% 0 2%;
 }
 .main-section__activities .section__activities {
   display: grid;
@@ -264,6 +259,7 @@ p {
   grid-template-rows: 1fr;
   justify-content: center;
   gap: 3rem;
+  padding-top: 20px;
 }
 @media (min-width: 704px) and (max-width: 1458px) {
   .main-section__activities .section__activities {
@@ -279,38 +275,8 @@ p {
      object-fit: cover;
 }
 
-.main-section__tours {
-  padding-top: 3%;
-}
-.main-section__tours .section-head {
-  padding-left: 2%;
-}
-.main-section__tours .section__traveltips {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: 1fr;
-  gap: 2rem;
-  padding-top: 3%;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.main-section__tours .section__traveltips img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 2%;
-  box-shadow: 10px 10px 10px rgb(107, 160, 203);
-}
-@media (min-width: 692px) and (max-width: 993px) {
-  .main-section__tours .section__traveltips {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-}
-
 .main-section__aboutus {
-  padding: 2rem;
+  padding: 2%;
 }
 .main-section__aboutus .aboutus-section {
   display: flex;
@@ -319,7 +285,7 @@ p {
 .main-section__aboutus .aboutus-section .aboutus-text {
   width: 100%;
   text-align: center;
-  padding: 1%;
+  padding-right: 2%;
 }
 .main-section__aboutus .aboutus-section .aboutus-picture {
   -o-object-fit: cover;
@@ -327,7 +293,6 @@ p {
 }
 .main-section__aboutus .aboutus-section .aboutus-picture img {
   width: 100%;
-  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -359,4 +324,21 @@ p {
   height: 100%;
   background-color: rgb(178, 208, 231);
   opacity: 0.7;
+}
+
+@media (max-width: 767.8px) {
+  .header {
+    height: 30vh;
+  }
+  .header h1 {
+    margin: 0;
+  }
+  .form {
+    display: none;
+  }
+  .aboutus-section {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */

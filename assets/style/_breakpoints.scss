@@ -45,7 +45,7 @@
 
 @mixin xl {
     @media (min-width: map-get($breakpoints, xl)) {
-        @content;
+        @content
     }
 }
 // mobile first media
@@ -57,7 +57,7 @@
 }
 
 @mixin md-d {
-    @media (max-width: map-get($breakpoints, lg) - .2px) {
+    @media (max-width: map-get($breakpoints, lg)) {
         @content
     }
 }
